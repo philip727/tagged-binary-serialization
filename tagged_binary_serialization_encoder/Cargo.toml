@@ -1,0 +1,13 @@
+[package]
+name = "tagged_binary_serialization_encoder"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+proc-macro = true
+
+[dependencies]
+tagged_binary_serialization = { path = "../tagged_binary_serialization" }
+syn = "2.0"          # Commonly used for parsing Rust code
+quote = "1.0"        # For generating Rust code
+proc-macro2 = "1.0.92"
