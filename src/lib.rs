@@ -1,7 +1,7 @@
 pub mod prelude {
     pub use tagged_binary_serialization::decode::TagDecode;
     pub use tagged_binary_serialization::encode::TagEncode;
-    pub use tagged_binary_serialization_encoder::{TagEncode, TagDecode};
+    pub use tagged_binary_serialization_derive::{TagEncode, TagDecode};
 }
 
 mod tests {

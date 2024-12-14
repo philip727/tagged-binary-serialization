@@ -1,5 +1,5 @@
 [package]
-name = "tagged_binary_serialization_encoder"
+name = "tagged_binary_serialization_derive"
 version = "0.1.0"
 edition = "2021"
 

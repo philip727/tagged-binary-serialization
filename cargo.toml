@@ -6,10 +6,10 @@ edition = "2021"
 [workspace]
 members = [ 
     "tagged_binary_serialization",
-    "tagged_binary_serialization_encoder"
+    "tagged_binary_serialization_derive"
 ]
 
 
 [dependencies]
 tagged_binary_serialization = { path = "./tagged_binary_serialization" }
-tagged_binary_serialization_encoder = { path = "./tagged_binary_serialization_encoder" }
+tagged_binary_serialization_derive = { path = "./tagged_binary_serialization_derive" }
